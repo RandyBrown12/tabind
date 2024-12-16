@@ -2,7 +2,7 @@ words = None
 tabind_letters={"T","A","B","I","N","D"}
 legal_words = set()
 
-with open("Collins Scrabble Words (2019).txt", "r") as file:
+with open("Collins_Scrabble_Words_2019.txt", "r") as file:
     words = set(file.read().splitlines())
 
 for word in words:

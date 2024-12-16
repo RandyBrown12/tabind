@@ -8,7 +8,7 @@ defmodule TABIND do
   end
 
   def all_legal_words do
-    words = File.read!("../Collins Scrabble Words (2019).txt") |> String.split(~r"(\r\n|\r|\n)")
+    words = File.read!("../Collins_Scrabble_Words_2019.txt") |> String.split(~r"(\r\n|\r|\n)")
     legal_words = Enum.filter(words, fn word -> TABIND.is_legal_word?(word) end)
 
     legal_words |> Enum.join(", ") |> IO.puts
