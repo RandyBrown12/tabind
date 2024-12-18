@@ -16,7 +16,7 @@ python tabind.py
 
 ### To run the TABIND Project in Elixir:
 
-Go into the tabind directory
+Go into the tabind_elixir directory
 
 ```
 cd ./tabind

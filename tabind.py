@@ -13,7 +13,7 @@ def tabind():
     After that we will perform an intersection between the word_letters set and the tabind_letters set.
     Ex. ABA = {"A", "B"} ∩ {"T","A","B","I","N","D"} = {"A","B"}
 
-    Once we do the intersection, we can compare the length of the the intersection and the len of the word
+    Once we do the intersection, we can compare the length of the the intersection to the len of the word
     and see that they do not match.
     Ex. len({"A","B"}) = 2, len("ABA") = 3. 
     """
