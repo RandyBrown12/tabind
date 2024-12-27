@@ -19,7 +19,7 @@ python tabind.py
 Go into the tabind_elixir directory
 
 ```
-cd ./tabind
+cd ./tabind_elixir
 ```
 
 Run these two commands
